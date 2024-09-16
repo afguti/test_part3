@@ -33,7 +33,7 @@ let notes = [
 ]
 
 app.get('/', (request, response) => {
-  response.send('<h1>Hi World!!</h1>')
+  response.send('<h1>Hola Mundo!!</h1>')
   console.log("getting a request!")
 })
 
